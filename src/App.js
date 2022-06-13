@@ -1,6 +1,8 @@
 
+import { Route, Router } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
+import Blogs from './components/Blogs';
 // import Brands from './components/Brands';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -23,6 +25,7 @@ function App() {
       <Portfolio></Portfolio>
       <Services></Services>
       <Testimonials></Testimonials>
+
       <Contact></Contact>
       <Footer></Footer>
     </div>

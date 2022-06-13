@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '../assets/img/logo.png';
+import Blogs from './Blogs';
 import Nav from './Nav';
 import NavMobile from './NavMobile';
 import Socials from './Socials';
@@ -35,6 +36,7 @@ const Header = () => {
           <div className='lg:hidden'>
             <NavMobile />
           </div>
+         
         </div>
       </header>
 

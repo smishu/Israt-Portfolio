@@ -68,6 +68,10 @@ export const navigation = [
     name: 'contact',
     href: 'contact',
   },
+  {
+    name: 'blogs',
+    href: 'blogs',
+  },
 ];
 
 // social
